@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTRANET 1.17</title>
+    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="icon" href="imgs/iconSite.png">
+</head>
+<body>
+    
+    <header class="header">
+
+        <div class="logoDiv" onclick="location.href='login.html'">
+            <div class="divideLogo">
+                <div class="groupLogoTexts">
+                    <span class="logoText">INTRANET</span>
+                    <span class="subLogoText">1.17 Mogi das Cruzes</span>
+                </div>
+            </div>
+             <img class="logoSenai" src="imgs/logoSenai_Black.png" alt="">
+        </div>
+
+        <nav class="topNavbar">
+            <hr class="separatorNav">
+
+            <div class="navLinks">
+                <a class="linkNav" href="https://pess.sesisenaispedu.org.br/" target="_blank">Portal Educacional</a>
+                <a class="linkNav" href="https://portalrh.sesisenaisp.org.br/arte/" target="_blank">ARTE RH</a>
+                <a class="linkNav" href="https://intranet.sesisenaisp.org.br/" target="_blank">IntraNet SEDE</a>
+                <a class="linkNav" href="https://outlook.office.com/mail/" target="_blank">OUTLOOK</a>
+                <a class="linkNav" href="https://sgset.sp.senai.br/" target="_blank">SGSET-SP</a>
+            </div>
+
+            <div class="menuMobile">
+                <img class="buttonMenu" id="openMenuButton" onclick="openMenu()"  src="imgs/menu2.png" alt="">
+                <img class="buttonMenu" id="closeMenuButton" onclick="closeMenu()"  src="imgs/menu2.png" alt="">
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main class="main">
+
+        <div class="leftNavbar" id="leftNavbar">
+
+            <p class="date" id="date">{date}</p>
+            
+
+            <div class="leftNavLinks" id="leftNavLinks">
+                <div class="navLinksMobile">
+                <a class="linkNav" href="https://pess.sesisenaispedu.org.br/" target="_blank">Portal Educacional</a>
+                <a class="linkNav" href="https://portalrh.sesisenaisp.org.br/arte/" target="_blank">ARTE RH</a>
+                <a class="linkNav" href="https://intranet.sesisenaisp.org.br/" target="_blank">IntraNet SEDE</a>
+                <a class="linkNav" href="https://outlook.office.com/mail/" target="_blank">OUTLOOK</a>
+                <a class="linkNav" href="https://sgset.sp.senai.br/" target="_blank">SGSET-SP</a>
+                </div>
+                <div class="linksContainer" id="linksContainer">
+                    
+
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="mainContainer">
+
+        <div class="fundoCarousel">
+            <div class="carousel">
+                <div class="carousel-container" id="carousel-container">
+                    
+                </div>
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>
+        </div>
+
+            <hr class="separatorNav3">
+
+            <div class="containerLinksCircles1">
+                <a href="fic.html"><img class="infoCircle" id="testeId" src="imgs/FIC.png" alt=""></a>
+                <a href="ct.html"><img class="infoCircle" src="imgs/CT.png" alt=""></a>
+                <a href="cai.html"><img class="infoCircle" src="imgs/CAI.png" alt=""></a>
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="homepage.js"></script>
+    <script src="menu.js"></script>
+    <script src="carousel.js"></script>
+</body>
+</html>

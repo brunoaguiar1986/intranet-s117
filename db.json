@@ -1,0 +1,523 @@
+{
+  "links": [
+    {
+      "id": "1",
+      "nome": "Planilha de registros",
+      "url": "https://sp.senai.br/unidade/mogidascruzes/",
+      "ordem": 0
+    },
+    {
+      "id": "2",
+      "nome": "Formulários",
+      "url": "#",
+      "ordem": 1
+    },
+    {
+      "id": "3",
+      "nome": "Horário Escolar",
+      "url": "#",
+      "ordem": 2
+    },
+    {
+      "id": "5",
+      "nome": "Proposta pedagógica",
+      "url": "#",
+      "ordem": 4
+    },
+    {
+      "id": "6",
+      "nome": "Plano Escolar",
+      "url": "#",
+      "ordem": 5
+    },
+    {
+      "id": "7",
+      "nome": "Coordenação",
+      "url": "#",
+      "ordem": 6
+    },
+    {
+      "id": "8",
+      "nome": "Regimento SENAI",
+      "url": "#",
+      "ordem": 7
+    },
+    {
+      "id": "9",
+      "nome": "Ramais",
+      "url": "#",
+      "ordem": 8
+    },
+    {
+      "id": "10",
+      "nome": "Prontuários Elétricos",
+      "url": "#",
+      "ordem": 9
+    },
+    {
+      "id": "11",
+      "nome": "P.E.C.I",
+      "url": "#",
+      "ordem": 10
+    },
+    {
+      "id": "12",
+      "nome": "Brigada de Incêndio",
+      "url": "#",
+      "ordem": 11
+    },
+    {
+      "id": "13",
+      "nome": "CIPA 2023/2024",
+      "url": "#",
+      "ordem": 12
+    },
+    {
+      "id": "14",
+      "nome": "Pront. Compressor",
+      "url": "#",
+      "ordem": 13
+    },
+    {
+      "id": "15",
+      "nome": "Plano educacional",
+      "url": "#",
+      "ordem": 14
+    },
+    {
+      "id": "17",
+      "nome": "Calendario Escolar",
+      "url": "#",
+      "ordem": 3
+    }
+  ],
+  "ct_links": [
+    {
+      "id": "1",
+      "nome": "I1P",
+      "url": "https://sesisenaisp-my.sharepoint.com/:x:/r/personal/ejesus_sp_senai_br/_layouts/15/Doc.aspx?sourcedoc=%7BB34019DA-E6A8-4FA3-95B2-2E5D87B17953%7D&file=HORARIO%202025%20%20VF%2015%2001%2025%201.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1&ct=1742299991372&wdOrigin=OFFICECOM-WEB.START.EDGEWORTH&cid=621fce66-754c-436e-83f2-5b9d5a9fc97c&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=dbb6a718-9b56-461c-bd27-e1aea4e51759"
+    },
+    {
+      "id": "2",
+      "nome": "I2P",
+      "url": "#"
+    },
+    {
+      "id": "3",
+      "nome": "I1C",
+      "url": "#"
+    },
+    {
+      "id": "4",
+      "nome": "I2C1",
+      "url": "#"
+    },
+    {
+      "id": "5",
+      "nome": "I2C2",
+      "url": "#"
+    },
+    {
+      "id": "6",
+      "nome": "I1D1",
+      "url": "#"
+    },
+    {
+      "id": "7",
+      "nome": "I1D2",
+      "url": "#"
+    },
+    {
+      "id": "8",
+      "nome": "N3D",
+      "url": "#"
+    },
+    {
+      "id": "9",
+      "nome": "I1M",
+      "url": "#"
+    },
+    {
+      "id": "10",
+      "nome": "I2M",
+      "url": "#"
+    }
+  ],
+  "fic_links": [
+    {
+      "id": "1",
+      "nome": "Flávio",
+      "url": "#",
+      "categoria": "1"
+    },
+    {
+      "id": "2",
+      "nome": "Alexandre",
+      "url": "#",
+      "categoria": "1"
+    },
+    {
+      "id": "3",
+      "nome": "Jorge",
+      "url": "#",
+      "categoria": "1"
+    },
+    {
+      "id": "4",
+      "nome": "C. Ferreira",
+      "url": "#",
+      "categoria": "1"
+    },
+    {
+      "id": "5",
+      "nome": "Ilso",
+      "url": "#",
+      "categoria": "1"
+    },
+    {
+      "id": "6",
+      "nome": "Shoji",
+      "url": "#",
+      "categoria": "1"
+    },
+    {
+      "id": "7",
+      "nome": "Sidney",
+      "url": "#",
+      "categoria": "1"
+    },
+    {
+      "id": "8",
+      "nome": "Cassio",
+      "url": "#",
+      "categoria": "1"
+    },
+    {
+      "id": "9",
+      "nome": "John",
+      "url": "#",
+      "categoria": "1"
+    },
+    {
+      "id": "10",
+      "nome": "Abraão",
+      "url": "#",
+      "categoria": "1"
+    },
+    {
+      "id": "11",
+      "nome": "Faustino",
+      "url": "#",
+      "categoria": "1"
+    },
+    {
+      "id": "12",
+      "nome": "Daniel",
+      "url": "#",
+      "categoria": "1"
+    },
+    {
+      "id": "13",
+      "nome": "Ailson",
+      "url": "#",
+      "categoria": "2"
+    },
+    {
+      "id": "14",
+      "nome": "Felipe",
+      "url": "#",
+      "categoria": "2"
+    },
+    {
+      "id": "15",
+      "nome": "Wesley",
+      "url": "#",
+      "categoria": "2"
+    },
+    {
+      "id": "16",
+      "nome": "Danillo",
+      "url": "#",
+      "categoria": "2"
+    },
+    {
+      "id": "17",
+      "nome": "Francisco",
+      "url": " #"
+    },
+    {
+      "id": "18",
+      "nome": "Magalhães",
+      "url": "#",
+      "categoria": "2"
+    },
+    {
+      "id": "19",
+      "nome": "Osnir",
+      "url": "#",
+      "categoria": "2"
+    },
+    {
+      "id": "20",
+      "nome": "Adilson",
+      "url": "#",
+      "categoria": "2"
+    },
+    {
+      "id": "21",
+      "nome": "Wellington",
+      "url": "#",
+      "categoria": "2"
+    },
+    {
+      "id": "22",
+      "nome": "Wilian",
+      "url": "#",
+      "categoria": "2"
+    },
+    {
+      "id": "23",
+      "nome": "Kleber",
+      "url": "#",
+      "categoria": "2"
+    },
+    {
+      "id": "24",
+      "nome": "Bruno",
+      "url": "#",
+      "categoria": "3"
+    },
+    {
+      "id": "25",
+      "nome": "Silas",
+      "url": "#",
+      "categoria": "3"
+    },
+    {
+      "id": "26",
+      "nome": "Ismael",
+      "url": "#",
+      "categoria": "3"
+    },
+    {
+      "id": "27",
+      "nome": "Ewerson",
+      "url": "#",
+      "categoria": "3"
+    },
+    {
+      "id": "28",
+      "nome": "George",
+      "url": "#",
+      "categoria": "3"
+    },
+    {
+      "id": "29",
+      "nome": "Pedro",
+      "url": "#",
+      "categoria": "3"
+    },
+    {
+      "id": "30",
+      "nome": "Natalia",
+      "url": "#",
+      "categoria": "4"
+    },
+    {
+      "id": "31",
+      "nome": "Carol",
+      "url": "#",
+      "categoria": "4"
+    },
+    {
+      "id": "32",
+      "nome": "Patricia",
+      "url": "#",
+      "categoria": "4"
+    },
+    {
+      "id": "33",
+      "nome": "Catia",
+      "url": "#",
+      "categoria": "4"
+    },
+    {
+      "id": "34",
+      "nome": "Aleandra",
+      "url": "#",
+      "categoria": "4"
+    },
+    {
+      "id": "35",
+      "nome": "Ciro",
+      "url": "#",
+      "categoria": "5"
+    },
+    {
+      "id": "36",
+      "nome": "J. Elnir",
+      "url": "#",
+      "categoria": "5"
+    },
+    {
+      "id": "37",
+      "nome": "Felix",
+      "url": "#",
+      "categoria": "5"
+    },
+    {
+      "id": "38",
+      "nome": "Roberto",
+      "url": "#",
+      "categoria": "5"
+    },
+    {
+      "id": "39",
+      "nome": "Severino",
+      "url": "#",
+      "categoria": "5"
+    },
+    {
+      "id": "40",
+      "nome": "Ivan",
+      "url": "#",
+      "categoria": "5"
+    },
+    {
+      "id": "41",
+      "nome": "Renato",
+      "url": "#",
+      "categoria": "6"
+    },
+    {
+      "id": "42",
+      "nome": "Anderson",
+      "url": "#",
+      "categoria": "6"
+    },
+    {
+      "id": "43",
+      "nome": "Diego",
+      "url": "#",
+      "categoria": "6"
+    },
+    {
+      "id": "44",
+      "nome": "Damião",
+      "url": "#",
+      "categoria": "6"
+    },
+    {
+      "id": "45",
+      "nome": "Rafael",
+      "url": "#",
+      "categoria": "7"
+    },
+    {
+      "id": "46",
+      "nome": "Edilson",
+      "url": "#",
+      "categoria": "7"
+    },
+    {
+      "id": "47",
+      "nome": "Lazaro",
+      "url": "#",
+      "categoria": "7"
+    }
+  ],
+  "cai_links": [
+    {
+      "id": "1",
+      "nome": "T3A",
+      "url": "#"
+    },
+    {
+      "id": "2",
+      "nome": "M1A",
+      "url": "#"
+    },
+    {
+      "id": "3",
+      "nome": "T1E",
+      "url": "#"
+    },
+    {
+      "id": "4",
+      "nome": "T1N",
+      "url": "#"
+    },
+    {
+      "id": "5",
+      "nome": "M3E",
+      "url": "#"
+    },
+    {
+      "id": "6",
+      "nome": "M1N",
+      "url": "#"
+    },
+    {
+      "id": "7",
+      "nome": "I4GM",
+      "url": "#"
+    },
+    {
+      "id": "8",
+      "nome": "M4AGCO",
+      "url": "#"
+    },
+    {
+      "id": "9",
+      "nome": "T3ACGO",
+      "url": "#"
+    },
+    {
+      "id": "10",
+      "nome": "T4B",
+      "url": "#"
+    },
+    {
+      "id": "11",
+      "nome": "M2B",
+      "url": "#"
+    },
+    {
+      "id": "12",
+      "nome": "MCOR",
+      "url": "#"
+    },
+    {
+      "id": "13",
+      "nome": "TCOR",
+      "url": "#"
+    },
+    {
+      "id": "14",
+      "nome": "IAGCO",
+      "url": "#"
+    },
+    {
+      "id": "15",
+      "nome": "T2COR",
+      "url": "#"
+    }
+  ],
+  "carousel_images": [
+    {
+      "id": "28",
+      "url": "http://10.105.196.6:3001/uploads/intranet117.png",
+      "redirectUrl": "https://www.google.com/search?q=senai+logo+branca&sca_esv=afb125d5b9b6df66&udm=2&biw=1920&bih=953&sxsrf=AHTn8zqFGSMdu75JFPlw8ff66CayZxxPwQ%3A1740762450579&ei=Uu3BZ6KII_7F5OUPzvrPqA4&ved=0ahUKEwii-YS87eaLAxX-IrkGHU79E-UQ4dUDCBE&uact=5&oq=senai+logo+branca&gs_lp=EgNpbWciEXNlbmFpIGxvZ28gYnJhbmNhMgUQABiABDIGEAAYCBgeMgYQABgIGB5I3Q1QjwNY3QxwAXgAkAEAmAFkoAGBBaoBAzYuMbgBA8gBAPgBAZgCCKAClQXCAgoQABiABBhDGIoFwgIGEAAYBxgemAMAiAYBkgcDNy4xoAeQGA&sclient=img#vhid=wXfR_QaNkmSFYM&vssid=mosaic"
+    },
+    {
+      "id": "36",
+      "url": "http://10.105.196.6:3001/uploads/tour360.PNG",
+      "redirectUrl": "https://tour.panoee.net/preview?tour=651e06f3ab514b41efcc02b3&scene=651eaf2a4eb4d63da82fd7e0"
+    },
+    {
+      "id": "37",
+      "url": "http://10.105.196.6:3001/uploads/site.PNG",
+      "redirectUrl": "https://sp.senai.br/unidade/mogidascruzes/"
+    }
+  ]
+}

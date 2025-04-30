@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTRANET 1.17</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="icon" href="imgs/iconSite.png">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="logoDiv">
+            <div class="divideLogo">
+                <div class="groupLogoTexts">
+                    <span class="logoText">INTRANET</span>
+                    <span class="subLogoText">1.17 Mogi das Cruzes</span>
+                </div>
+            </div>
+             <img class="logoSenai" src="imgs/logoSenai_Black.png" alt="">
+        </div>
+
+        <nav class="topNavbar">
+            <hr class="separatorNav">
+
+        </nav>
+
+    </header>
+
+    
+    <div class="loginContainer">
+        <p class="titleLogin">Entre em sua conta</p>
+
+        <div class="containerInputs">
+            <label class="labelInput1">Usuário:</label>
+            <input type="text" id="usuario" class="inputLogin" placeholder="Usuário">
+            <label class="labelInput">Senha:</label>
+            <input type="password" id="senha" class="inputLogin" placeholder="Senha">
+        </div>
+
+        <button onclick="login()" class="loginBtn"><p id="defaultBtn" class="defaultButton">Entrar</p><img id="correctBtn" class="correctPassword" src="imgs/check.png" alt=""> </button>
+
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

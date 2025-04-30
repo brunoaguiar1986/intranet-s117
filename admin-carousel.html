@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de URLs de Imagens</title>
+    <link rel="stylesheet" href="css/adminCarousel.css">
+    <link rel="icon" href="imgs/iconSite.png">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="logoDiv" onclick="location.href='index.html'">
+            <div class="divideLogo">
+                <div class="groupLogoTexts">
+                    <span class="logoText">INTRANET</span>
+                    <span class="subLogoText">1.17 Mogi das Cruzes</span>
+                </div>
+            </div>
+            <img class="logoSenai" src="imgs/logoSenai_Black.png" alt="">
+        </div>
+
+        <nav class="topNavbar">
+            <hr class="separatorNav">
+
+            <div class="navLinks">
+                <p class="linkNav">Painel de Gerenciamento</p>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <div class="backDiv">
+        <div class="backButton" onclick="location.href='admin.html'"><p class="txtButton">Voltar</p></div>
+    </div>
+
+    <main class="main">
+        <h1 class="title">Editor do Carousel</h1>
+        <div class="switchGroup">
+            <button class="editSwitch" id="editSwitch" onclick="switchToEdit()">Editar</button>
+            <button class="addSwitch" id="addSwitch" onclick="switchToAdd()">Adicionar</button>
+        </div>
+
+        <div class="createContainer" id="createContainer">
+            <p id="statusEdit"><strong>Adicionar nova imagem ao carousel</strong></p>
+            <p> <strong> Atenção:</strong> Recomendamos o uso de imagens na dimensão <strong>1200 x 675</strong>. </p>
+
+            <form class="formularioImagem" id="uploadForm" enctype="multipart/form-data">
+                <input type="file" id="image" name="image" accept="image/*" required>
+                <div class="inputFrameUrl">
+                    <img class="netIcon" src="imgs/net.png" alt=""> <hr class="separatorInputs"> 
+                    <input type="url" class="inputUrl2" id="redirectUrl" name="redirectUrl" placeholder="URL de redirecionamento" required>
+                </div>
+                <button class="sendButton" type="submit"><img class="buttonUploadIcon" src="imgs/uploadIcon.png" alt=""> Enviar Imagem</button>
+            </form>
+
+        </div>
+
+        <div class="editContainer" id="editContainer">
+            
+
+            <p id="statusEdit"><strong>Editar URL da Imagem</strong></p>
+        
+            <form class="linkForm" id="linkForm">
+                <input type="hidden" id="linkId">
+                
+                <div class="responsiveMobile">
+                    <div class="inputFrameUrl">
+                        <img class="netIcon" src="imgs/net.png" alt=""> <hr class="separatorInputs"> 
+                        <input type="text" class="inputUrl" id="linkUrl" placeholder="Endereço da Imagem" required>
+                    </div>
+                    <button class="buttonSave" type="submit"><img class="iconSave" src="imgs/diskette.png" alt=""></button>
+                </div>
+            </form>
+    
+            <ul class="listaLinks" id="listaLinks"></ul>
+        </div>
+        
+
+    </main>
+
+
+    <script>
+        const buttonEdit = document.getElementById('editSwitch')
+        const buttonAdd = document.getElementById('addSwitch')
+
+        const createContainer = document.getElementById('createContainer');
+        const editContainer = document.getElementById('editContainer');
+
+        function switchToEdit(){
+            editContainer.style.display = "flex";
+            createContainer.style.display = "none";
+
+            buttonEdit.classList.remove('addSwitch')
+            buttonEdit.classList.add('editSwitch')
+            buttonAdd.classList.remove('editSwitch')
+            buttonAdd.classList.add('addSwitch')
+        }
+
+        function switchToAdd(){
+            editContainer.style.display = "none";
+            createContainer.style.display = "flex";
+
+            buttonEdit.classList.add('addSwitch')
+            buttonAdd.classList.remove('addSwitch')
+            buttonAdd.classList.add('editSwitch')
+
+        }
+
+        document.getElementById('uploadForm').addEventListener('submit', function(event) {
+            event.preventDefault();  
+
+            var formData = new FormData(this); 
+
+            var xhr = new XMLHttpRequest();  
+            xhr.open('POST', 'http://10.105.196.6:3001/upload', true);  
+
+            
+            xhr.onload = function () {
+                if (xhr.status == 200) {
+                    
+                    document.getElementById('message').innerHTML = `<p style="color: green;">${xhr.responseText}</p>`;
+                } else {
+                    
+                    document.getElementById('message').innerHTML = `<p style="color: red;">Erro ao carregar a imagem.</p>`;
+                }
+            };
+
+            
+            xhr.send(formData);
+        });
+    </script>
+
+    <script src="adminCarousel.js"></script>
+    <script src="lock.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
+
+</body>
+</html>

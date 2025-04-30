@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #F4F4F4;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 60px;
+    background-color: #e30613;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.233);
+}
+
+.logoDiv{
+    display: flex;
+    align-items: center;
+}
+
+.groupLogoTexts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 170px;
+}
+
+.logoText{
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 550;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    color: #ffffff;
+    user-select: none;
+}
+
+.subLogoText{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 550;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: -15px;
+    color: #ececec;
+    user-select: none;
+}
+
+.logoSenai{
+    width: 90px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(132deg) brightness(103%) contrast(103%);
+}
+
+.topNavbar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navLinks{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.separatorNav{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    border: none;
+    height: 38px;
+    width: 2px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.linkNav{
+    display: flex;
+    justify-content: left;
+    padding-left: 40px;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    /* background-color: aqua; */
+    color: #ffffff;
+    font-family: Poppins;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 10px;
+
+    font-size: clamp(18px, 1.5vw, 22px);
+    transition: 0.3s;
+}
+
+
+
+
+.loginContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Poppins;
+    font-weight: 600;
+    scale: 1.1;
+}
+
+.titleLogin{
+    font-size: 22px;
+    color: #222222;
+}
+
+.containerInputs{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.inputLogin{
+    height: 40px;
+    padding-left: 20px;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.labelInput{
+    font-size: 14px;
+    color: rgb(49, 49, 49);
+    user-select: none;
+
+}
+
+.labelInput1{
+    margin-top: -10px;
+    font-size: 14px;
+    color: rgb(49, 49, 49);
+    user-select: none;
+}
+
+.loginBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    background-color: #e30613;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.loginBtn:hover{
+    background-color: #b40511;
+}
+
+.defaultButton{
+    display: block;
+    transition: 0.3s;
+}
+
+.correctPassword{
+    display: none;
+    width: 50px;
+    opacity: 0%;
+    transition: 0.8s;
+}
+
+@media screen and (max-width: 768px) {
+
+    .loginContainer{
+        scale: 90%;
+    }
+
+}

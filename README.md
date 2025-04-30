@@ -13,3 +13,22 @@
 **=>** node server.js 
 
 **=>** npx json-server db.json
+
+====================================
+
+**-- Express**
+node server.js
+
+**-- Json server:**
+
+json-server --watch db.json --port 3000
+
+**//Alternativo**
+
+npx json-server --watch db.json --port 3000
+
+**-- Instalar os modulos** 
+
+npm install express multer axios path
+
+npm install -g json-server
